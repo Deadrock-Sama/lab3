@@ -15,7 +15,7 @@ public class KidnappersPart implements IStoryable {
     @Override
     public void narrate() {
 
-        System.out.println("\nА вот что происходило до того, как ученые достигли этого места:\n");
+        System.out.println("\nВот что происходило до того, как ученые достигли этого места:\n");
 
         Kidnappers kidnappers = new Kidnappers(true);
         stealClothes();
